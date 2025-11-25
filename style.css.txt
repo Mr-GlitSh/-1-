@@ -1,0 +1,95 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* لجعل النص يبدأ من اليمين (مناسب للعربية) */
+    direction: rtl; /* لضمان دعم اللغة العربية بشكل صحيح */
+}
+
+/* تنسيق رأس الصفحة (Header) */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+/* تنسيق حاوية المواد (Grid Layout) */
+.materials-grid {
+    display: grid;
+    /* سيتم ترتيب البطاقات في 3 أعمدة على الشاشات الكبيرة وعمود واحد على الشاشات الصغيرة */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; /* زيادة التباعد قليلاً */
+    padding: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* تنسيق بطاقة المادة الواحدة */
+.material-card {
+    background-color: white;
+    padding: 25px; /* زيادة البادنج قليلاً */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.material-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.material-card h2 {
+    color: #007bff;
+    margin-top: 0;
+    font-size: 1.7em; /* تكبير عنوان المادة */
+}
+
+.material-card p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    flex-grow: 1; 
+}
+
+/* تنسيق رابط/زر الفيديو */
+.video-link {
+    display: inline-block;
+    background-color: #dc3545; /* لون جديد ومميز (أحمر) */
+    color: white;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+    font-size: 1.05em; /* تكبير النص قليلاً */
+}
+
+.video-link:hover {
+    background-color: #c82333;
+}
+
+/* تنسيق أسفل الصفحة (Footer) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الصف الأول الثانوي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 منصة المواد التعليمية - الصف الأول الثانوي </h1>
+        <p id="welcome-message"></p>
+    </header>
+
+    <main class="materials-grid">
+        
+        <div class="material-card" data-material="اللغة العربية">
+            <h2>1. اللغة العربية</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+              
+                  
+                                   <li><a  href="https://youtu.be/XT-  YWUpcA3c?si=1y2SVycZ1Mraeh20" target="_blank" class="video-link">غير متاح الان</a></li>                                                                                     <li><a href="https://youtu.be/uLVthsWpEws?si=XjV_HtgwYG1U482w" target="_blank" class="video-link">الأدب في عصر صدر الإسلام </a></li>                                                             <li><a href="https://youtu.be/6Eg_PR7-Vww?si=3Kiue2nk-zz9XI5x" target="_blank" class="video-link">الأدب في العصر الاموي</a></li>   
+            </ul>
+        </div>
+
+        <div class="material-card" data-material="اللغة الانجليزية">
+            <h2>2. اللغة الانجليزية</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=EN_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EN_VIDEO_2" target="_blank" class="video-link">غير متاح الان</a></li>
+            </ul>
+        </div>
+
+        <div class="material-card" data-material="الرياضيات">
+            <h2>3. الرياضيات</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=MATH_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=MATH_VIDEO_2" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=MATH_VIDEO_3" target="_blank" class="video-link">غير متاح الان</a></li>
+            </ul>
+        </div>
+
+        <div class="material-card" data-material="التاريخ">
+            <h2>4. التاريخ</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=HIS_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=HIS_VIDEO_2" target="_blank" class="video-link">غير متاح الان</a></li>
+            </ul>
+        </div>
+
+        <div class="material-card" data-material="العلوم المتكاملة">
+            <h2>5. العلوم المتكاملة</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=SCI_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SCI_VIDEO_2" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SCI_VIDEO_3" target="_blank" class="video-link">غير متاح الان</a></li>
+            </ul>
+        </div>
+
+        <div class="material-card" data-material="الفلسفة والمنطق">
+            <h2>6. الفلسفة والمنطق</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=PH_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=PH_VIDEO_2" target="_blank" class="video-link">غير متاح الان</a></li>
+            </ul>
+        </div>
+        
+        <div class="material-card" data-material="اللغة الاجنبية التانية">
+            <h2>7. اللغة الاجنبية التانية</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=SL_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SL_VIDEO_2" target="_blank" class="video-link">غير متاح الان</a></li>
+            </ul>
+        </div>
+        
+        <div class="material-card" data-material="البرمجة والذكاء الاصطناعي">
+            <h2>8. البرمجة والذكاء الاصطناعي</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=AI_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+                <li><a href="https://www.youtube.com/watch?v=AI_VIDEO_2" target="_blank" class="video-link">غير متاح الان</a></li>
+            </ul>
+        </div>
+
+        <div class="material-card" data-material="التربية الدينية">
+            <h2>9. التربية الدينية</h2>
+            <p>اختر الدرس الذي تود مشاهدته:</p>
+            <ul class="video-list">
+                <li><a href="https://www.youtube.com/watch?v=REL_VIDEO_1" target="_blank" class="video-link">غير متاح الان</a></li>
+               
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 منصة تعليمية. كل الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
